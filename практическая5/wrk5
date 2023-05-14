@@ -1,0 +1,4 @@
+def Zadanie55(L):
+    while int(input('напишете число - ')) != 0:
+        L += 1
+    print('количество чисел- ',L)

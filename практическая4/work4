@@ -1,0 +1,7 @@
+def Zadanie44(N,S):
+    for i in range (1, N):
+        A = int(input('число - '))
+        S += A
+    A = int(input('число - '))
+    S += A
+    print(S)

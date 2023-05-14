@@ -1,0 +1,6 @@
+def Zadanie52(N,P):
+    P=2
+    while N % P ==0:
+        min=P
+        P+=1
+        print(P)

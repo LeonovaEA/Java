@@ -1,0 +1,7 @@
+def al(n,S=0,L=0,I=1):
+    if n==0:
+        return S
+    return al(n-1,S+L+I,L+I,L)
+    
+n=int(input("n--"))
+print(al(n))

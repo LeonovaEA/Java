@@ -1,0 +1,9 @@
+def Zadanie43(A,B):
+ if A < B:
+  print("A меньше B. OF.")
+ while A > B:
+  if A % 2 == 1:
+   print(A)
+  A -= 1
+ if B % 2 == 1:
+  print(B)

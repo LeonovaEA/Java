@@ -1,0 +1,22 @@
+def Zadanie71():
+    A=[]
+    max1=0
+    min1=0
+    swap=0
+    n=int(input('Введите длину массива:'))
+    for i in range(n):
+        print('Введите',i,'элемент массива')
+        A.append(int(input()))
+    max=A[0]
+    min=A[0]
+    for i in range(n):
+        if A[i]>max:
+           max=A[i]
+           max1=i
+        if A[i]<min:
+           min=A[i]
+           min1=i
+    swap=max
+    A[max1]=min
+    A[min1]=swap
+    print(A)

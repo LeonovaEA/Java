@@ -1,0 +1,14 @@
+def Zadanie58(L):
+  A=-1
+  B=0
+  C=0
+  while L!=0:
+    if A==L:
+     B+=1
+    else:
+     A=L
+     C=max(C,B)
+     B=1
+    L=int(input())
+  C=max(C,B)
+  print(C)

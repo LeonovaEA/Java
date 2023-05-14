@@ -1,0 +1,8 @@
+# -*- coding: utf-8 -*-
+def Zadanie8 (x, r, d):
+ if x == r == d:
+  print ("3")
+ elif x == r or r == d or d == x:
+  print ("2")
+ else:
+  print ("0")

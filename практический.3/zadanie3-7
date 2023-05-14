@@ -1,0 +1,6 @@
+# -*- coding: utf-8 -*-
+def Zadanie7(years):
+    if ((years % 400 == 0)) or ((years % 4 == 0) and not(years % 100 == 0)):
+        print("Да")
+    else:
+        print("Нет")
