@@ -1,7 +1,7 @@
 import java.util.Scanner;
 public class ZD6 {
     public static void main(String[] args){
-        boolean count = number(5869);
+        boolean count = number(2578);
         System.out.println(count);
     }
     public static boolean number(int x){
