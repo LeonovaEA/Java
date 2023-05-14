@@ -1,1 +1,48 @@
+package ZD14;
+
+import java.util.Arrays;
+import java.util.Scanner;
+
+public class ZD14 {
+    private int[][] array;
+
+    public Pr14(int size) {
+        Scanner s = new Scanner(System.in);
+        System.out.println("Введите элементы ячеек");
+        array = new int[size][3];
+        for (int q = 0; q < array.length; q++) {
+            for (int p = 0; p < 3; p++) {
+                array[q][p] = s.nextInt();
+
+            }
+        }
+        System.out.println(Arrays.deepToString(array));
+    }
+
+    public int[][] array1(){
+        Scanner s = new Scanner(System.in);
+
+
+        int number = s.nextInt();
+        int min = Integer.MAX_VALUE;
+        int minI = -1;
+        int minJ = -1;
+        for(int i = 0; i < array.length;i++){
+            for(int j = 0; j < 3;j++){
+                if(array[i][j] < min){
+                    min = array[q][p];
+                    minQ = q;
+                    minP= p
+
+                }
+
+            }
+
+        }
+        array[minQ][minP] = number;
+        return array;
+
+    }
+
+}
 
