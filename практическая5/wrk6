@@ -1,9 +1,0 @@
-  def Zadanie56(N):
-    A=0
-    B=0
-    while N:
-        A+=N
-        B+=1
-        N=int(input())
-    else:
-     print(A/B)

@@ -1,8 +1,0 @@
-def Zadanie54(x,y,P):
-    P=1
-    if y<x:
-            print(" не работает((")
-    while y-x>0:
-        x+=x*10
-        P+=1
-        print(P)

@@ -1,6 +1,0 @@
-def Zadanie51(N,L):
-    L=1
-    while (L**2) <=N:
-        print(L**2 )
-        L+=1
-    

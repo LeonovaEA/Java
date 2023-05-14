@@ -1,7 +1,0 @@
-def Zadanie53(N,P,Q):
-    P=1
-    Q=2
-    while 2**P<= N:
-        P+=1
-        Q*=2
-        print(P-1,Q//2)
