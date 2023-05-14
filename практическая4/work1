@@ -1,4 +1,0 @@
-def Zadanie41(A,B):
-for i in range (A, B+1):
- print(i,end="---")
-  print(B)
